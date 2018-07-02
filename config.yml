@@ -1,0 +1,30 @@
+title: "Moving your project to GitHub"
+tagline: "Everything you need to know about moving projects to GitHub"
+description: "You’re a migration away from pushing your projects further with a full suite of development tools and premier third-party apps on GitHub. This course helps you seamlessly move code to GitHub and sets you up to do more after you make the move."
+template:
+  name: "github-move"
+steps:
+  - title: "Plan the move"
+    description: "Explore your options for making the move to GitHub"
+    event: "issues"
+    link: https://github.com/{{ user.username }}/{{ course.template.name }}/issues/1
+  - title: "Prepare the project"
+    description: "Prepare your project for a happy life on GitHub"
+    event: "issues.closed"
+    link: https://github.com/{{ user.username }}/{{ course.template.name }}/issues
+  - title: "Make the move"
+    description: "Publish your project on GitHub"
+    event: "push"
+    link: https://github.com/{{ user.username }}/{{ course.template.name }}
+  - title: "Prepare to collaborate"
+    description: "Run a Community health check"
+    event: "issues.closed"
+    link: https://github.com/{{ user.username }}/{{ course.template.name }}/issues
+  - title: "Project settings"
+    description: "Learn about important settings for new repositories"
+    event: "issues.closed"
+    link: https://github.com/{{ user.username }}/{{ course.template.name }}/issues
+tags: [
+  "Git","GitHub"
+]
+order: 4

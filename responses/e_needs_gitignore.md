@@ -1,0 +1,1 @@
+I just wanted to remind you that I recommend having a `.gitignore` file in your project, if it needs one. Some projects might not need a `.gitignore` file and that is just fine :ok_hand:. If you decide later that you want to add a `.gitignore` file, use these [instructions](https://help.github.com/articles/ignoring-files/).
