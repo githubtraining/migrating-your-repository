@@ -33,7 +33,7 @@ steps:
       - type: gate
         left: '%actions.tree.data.tree%'
         operator: includes
-        right: name:.gitignore
+        right: path:.gitignore
         else:
           type: respond
           issue: Preparing the project for Git
