@@ -5,7 +5,7 @@ This README contains the course flow for the "Migrating Your Project to GitHub" 
 ### User Registration
 
 - On registration, create an empty repository called `new-project`
-- Repository should be public and include `Welcome, check out the issues tab for next steps` in the description field
+- Repository should include `Welcome, check out the issues tab for next steps` in the description field
 
 ###  Activity 1: Plan the Move
 
@@ -30,4 +30,3 @@ This README contains the course flow for the "Migrating Your Project to GitHub" 
 ### Activity 5: Saying Goodbye
 
 After Activity 4 is complete, the app should open a new issue using the text in `responses/08_graceful-exit.md` with the title "A few parting words"
-- Activity 5 concludes when the learner closes the issue
