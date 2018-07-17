@@ -17,10 +17,10 @@ Before I say good-bye, I want to recap all the tasks you've accomplished. You:
 
 Now that you've migrated your Git repository to GitHub, managing your repository and adding collaborators are common next steps. Here are some recommended courses we think you might be interested in:
 
-[Maintaining your GitHub project]({{ host }}/courses/maintaining-your-github-project)
-Learn how to optimize your repository for collaboration. This course reviews the different steps you can take to make your open source project more welcoming to outside collaborators or make it easier for coworkers to contribute to your private project.
-
-[Cultivating your community]({{ host }}/courses/cultivating-your-community)
+[Community Starter Kit]({{ host }}/courses/community-starter-kit)
 Hosting a project on GitHub enables you to share your work with millions of other developers. This course will walk you through the different items you can add to your repository to welcome new contributors and make it easier for them to report issues, suggest new features, or potentially submit a pull request!
+
+[Settings tab: Protected Branches and CODEOWNERS]()
+Now that you have a repository on GitHub learn about two features of the Settings tab that protect your deployed code. 
 
 There's so much more you can do with GitHub, and you have a solid start. Now...[what will you learn next]({{ host }}/courses)?
