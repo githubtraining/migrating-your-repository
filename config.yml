@@ -1,30 +1,88 @@
-title: "Moving your project to GitHub"
-tagline: "Everything you need to know about moving projects to GitHub"
-description: "You’re a migration away from pushing your projects further with a full suite of development tools and premier third-party apps on GitHub. This course helps you seamlessly move code to GitHub and sets you up to do more after you make the move."
+title: Migrating your repository to GitHub
+tagline: Everything you need to know about moving projects to GitHub
+description: You're a migration away from pushing your projects further with a full suite of development tools and premier third-party apps on GitHub. This course helps you seamlessly move code to GitHub and sets you up to do more after you make the move.
 template:
-  name: "github-move"
+  name: github-move
+before:
+  - type: createIssue
+    title: Plan the move
+    body: 01_make-a-plan.md
 steps:
-  - title: "Plan the move"
-    description: "Explore your options for making the move to GitHub"
-    event: "issues"
+  - title: Plan the move
+    description: Explore your options for making the move to GitHub
+    event: issues.closed
     link: https://github.com/{{ user.username }}/{{ course.template.name }}/issues/1
-  - title: "Prepare the project"
-    description: "Prepare your project for a happy life on GitHub"
-    event: "issues.closed"
-    link: https://github.com/{{ user.username }}/{{ course.template.name }}/issues
-  - title: "Make the move"
-    description: "Publish your project on GitHub"
-    event: "push"
+    actions:
+      - type: createIssue
+        action_id: new_issue
+        title: Preparing the project for Git
+        body: 04_prepare.md
+      - type: respond
+        with: 02_next.md
+        issue: Plan the move
+        data:
+          issueURL: '%actions.new_issue.data.html_url%'
+
+  - title: Prepare the project
+    description: Get your project ready to be moved to GitHub
+    event: push
     link: https://github.com/{{ user.username }}/{{ course.template.name }}
-  - title: "Prepare to collaborate"
-    description: "Run a Community health check"
-    event: "issues.closed"
+    actions:
+      - type: getTree
+        action_id: tree
+      - type: gate
+        left: '%actions.tree.data.tree%'
+        operator: includes
+        right: path:.gitignore
+        else:
+          type: respond
+          issue: Preparing the project for Git
+          with: e_needs_gitignore.md
+      - type: createIssue
+        title: Importing your project
+        body: 05_move-import.md
+        action_id: new_issue
+      - type: closeIssue
+        issue: Preparing the project for Git
+      - type: respond
+        with: 02_next.md
+        issue: Preparing the project for Git
+        data:
+          issueURL: '%actions.new_issue.data.html_url%'
+
+  - title: Make the move
+    description: Publish your project on GitHub
+    event: push
+    link: https://github.com/{{ user.username }}/{{ course.template.name }}
+    actions:
+      - type: createIssue
+        action_id: new_issue
+        title: Public or private repository?
+        body: 07_confirm_visibility.md
+      - type: closeIssue
+        issue: Importing your project
+      - type: respond
+        with: 02_next.md
+        issue: Importing your project
+        data:
+          issueURL: '%actions.new_issue.data.html_url%'
+
+  - title: Public or private repository?
+    description: Understand the difference between a public and private repository
+    event: issues.closed
     link: https://github.com/{{ user.username }}/{{ course.template.name }}/issues
-  - title: "Project settings"
-    description: "Learn about important settings for new repositories"
-    event: "issues.closed"
-    link: https://github.com/{{ user.username }}/{{ course.template.name }}/issues
+    actions:
+      - type: createIssue
+        action_id: new_issue
+        title: A few parting words
+        body: 08_graceful-exit.md
+      - type: respond
+        with: 02_next.md
+        data:
+          issueURL: '%actions.new_issue.data.html_url%'
+
 tags: [
-  "Git","GitHub"
+  'Git','GitHub'
 ]
+
 order: 4
