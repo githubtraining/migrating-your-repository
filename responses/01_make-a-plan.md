@@ -143,6 +143,8 @@ Now that you have considered your options, expand the appropriate section below 
   <hr>
 </details>
 
+> Close this issue to signal you are finished with this step. I will open a new issue to show you how to optimize your repository for Git operations. :tada:
+
 For a printable version of the steps in this course, check out the [Quick Reference Guide]({{ host }}/public/{{ course.slug }}.pdf).
 
 <hr>
