@@ -1,6 +1,6 @@
 title: Migrating your repository to GitHub
 tagline: Everything you need to know about moving projects to GitHub
-description: You're a migration away from pushing your projects further with a full suite of development tools and premier third-party apps on GitHub. This course helps you seamlessly move code to GitHub and sets you up to do more after you make the move.
+description: You're a migration away from using a full suite of development tools and premier third-party apps on GitHub. This course helps you seamlessly move code to GitHub and sets you up to do more after you make the move.
 template:
   name: github-move
 before:
