@@ -20,7 +20,7 @@ Now that you've migrated your Git repository to GitHub, managing your repository
 [Community Starter Kit]({{ host }}/courses/community-starter-kit)
 Hosting a project on GitHub enables you to share your work with millions of other developers. This course will walk you through the different items you can add to your repository to welcome new contributors and make it easier for them to report issues, suggest new features, or potentially submit a pull request!
 
-[Settings tab: Protected Branches and CODEOWNERS]()
+[Protected Branches and CODEOWNERS]({{ host }}/courses/protected-branches-codeowners)
 Now that you have a repository on GitHub learn about two features of the Settings tab that protect your deployed code. 
 
 There's so much more you can do with GitHub, and you have a solid start. Now...[what will you learn next]({{ host }}/courses)?
