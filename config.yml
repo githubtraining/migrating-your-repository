@@ -55,7 +55,7 @@ steps:
       - type: createIssue
         action_id: new_issue
         title: Public or private repository?
-        body: 07_confirm_visibility.md
+        body: 07_confirm-visibility.md
       - type: closeIssue
         issue: Importing your project
       - type: respond
