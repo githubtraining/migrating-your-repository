@@ -50,7 +50,7 @@ steps:
         right: path:.gitignore
         else:
           type: respond
-          issue: Uploading your project
+          issue: Importing your project
           with: e_needs_gitignore.md
       - type: createIssue
         action_id: new_issue
