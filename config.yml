@@ -19,7 +19,6 @@ steps:
         body: 04_prepare.md
       - type: respond
         with: 02_next.md
-        issue: Plan the move
         data:
           issueURL: '%actions.new_issue.data.html_url%'
 
