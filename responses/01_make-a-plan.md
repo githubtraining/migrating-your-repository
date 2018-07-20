@@ -100,7 +100,7 @@ Understanding where your project currently lives is the first step to uploading 
 
 ### :keyboard: Activity: Determine next steps
 
-Now that you have considered your options, expand the appropriate section below for more information:
+Choose the drop-down below that best fits your current situation or for a printable version of the steps in this course, check out the [Quick Reference Guide]({{ host }}/public/{{ course.slug }}.pdf).
 
 <details>
   <summary>Using GitHub Importer</summary>
@@ -143,9 +143,9 @@ Now that you have considered your options, expand the appropriate section below 
   <hr>
 </details>
 
-> Close this issue to signal you are finished with this step. I will open a new issue to show you how to optimize your repository for Git operations. :tada:
+### Ready to move on?
 
-For a printable version of the steps in this course, check out the [Quick Reference Guide]({{ host }}/public/{{ course.slug }}.pdf).
+**Close this issue to signal you are finished with this step**. I will open a new issue to show you how to optimize your repository for Git operations. :tada:
 
 <hr>
 <h3 align="center">Watch below for my response</h3>
