@@ -24,36 +24,34 @@ steps:
 
   - title: Prepare the project
     description: Get your project ready to be moved to GitHub
-    event: push
-    link: https://github.com/{{ user.username }}/{{ course.template.name }}
+    event: issues.closed
+    link: https://github.com/{{ user.username }}/{{ course.template.name }}/issues
     actions:
-      - type: getTree
-        action_id: tree
-      - type: gate
-        left: '%actions.tree.data.tree%'
-        operator: includes
-        right: path:.gitignore
-        else:
-          type: respond
-          issue: Preparing the project for Git
-          with: e_needs_gitignore.md
       - type: createIssue
         title: Importing your project
         body: 05_move-import.md
         action_id: new_issue
-      - type: closeIssue
-        issue: Preparing the project for Git
       - type: respond
         with: 02_next.md
-        issue: Preparing the project for Git
         data:
           issueURL: '%actions.new_issue.data.html_url%'
 
   - title: Make the move
     description: Publish your project on GitHub
     event: push
-    link: https://github.com/{{ user.username }}/{{ course.template.name }}
+    link: https://github.com/{{ user.username }}/{{ course.template.name }}/issues
     actions:
+      - type: getTree
+        action_id: tree
+      - type: gate
+        required: false
+        left: '%actions.tree.data.tree%'
+        operator: includes
+        right: path:.gitignore
+        else:
+          type: respond
+          issue: Uploading your project
+          with: e_needs_gitignore.md
       - type: createIssue
         action_id: new_issue
         title: Public or private repository?
@@ -61,10 +59,10 @@ steps:
       - type: closeIssue
         issue: Importing your project
       - type: respond
-        with: 02_next.md
+        with: 06_move-done-local.md
         issue: Importing your project
         data:
-          issueURL: '%actions.new_issue.data.html_url%'
+          url: '%actions.new_issue.data.html_url%'
 
   - title: Public or private repository?
     description: Understand the difference between a public and private repository
