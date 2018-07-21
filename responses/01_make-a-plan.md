@@ -1,6 +1,6 @@
-## Step 1: Planning the move
+## Step 1: Planning the migration
 
-Migrating your repository to GitHub gives you the feature-rich tools and collaboration needed to elevate your project to the next level. Not to mention, it's also pretty exciting. If you're doing this for the first time, you have a few options when migrating your repository to GitHub. This course will guide you through the necessary steps to migrate your repository from another version control system to then be hosted on GitHub.
+Migrating your repository to GitHub gives you the feature-rich tools and collaboration needed to elevate your project to the next level. This course will guide you through the necessary steps to migrate your repository from another version control system to GitHub.
 
 I know some people like to get straight to the point while others like more information. For those who like more information, be sure to check out the drop-downs like this one :arrow_down:
 
@@ -19,43 +19,33 @@ I know some people like to get straight to the point while others like more info
   <hr>
 </details>
 
-### Where is your project?
+### Important considerations for migrations
 
-Understanding where your project currently lives is the first step to uploading it onto GitHub. Choose the below drop-down that best fits your current situation:
+If you are moving from another version control system such as Mercurial, Subversion, or another Git platform, you will need to make a few decisions:
 
-<details>
-  <summary>Your project is on another version control system, such as Mercurial, Subversion, or another Git platform</summary>
-  <hr>
+1. Do you need all of the history?
+2. Is there project data that lives outside of the history you need to preserve? (ex: Issues, Discussions, Pull Requests)
 
-  ### Moving from other version control systems
+#### Should you keep all of the history?
 
-  If you are moving from another version control system such as Mercurial, Subversion, or another Git platform, you will need to make a few decisions:
+If you are moving your project to GitHub as a public project, you may want to consider what is in your history. For example:
 
-  1. Do you need all of the history?
-  2. Is there project data that lives outside of Git you need to preserve? (ex: Issues, Discussions, Pull Requests)
+- Is there sensitive information in historical commit <sup>[:book:](https://help.github.com/articles/github-glossary/#commit)</sup> messages?
+- Do you want to use [private email addresses](https://help.github.com/articles/setting-your-commit-email-address-on-github/) on GitHub?
 
-  ### Should you keep all of the history?
+| If ... | Then ... |
+| ------- | --------- |
+| If you do want to keep the history | Check out the **Using the GitHub Importer** section under Next steps.|
+| If you do **not** want all of this history | We recommend you do a clean cutover to "restart" version control and remove any unwanted history. If this sounds like the right option for you, check out the **Doing a clean cutover** section under Next steps. |
 
-  If you are moving your project to GitHub as a public project, you may want to consider what is in your history. For example:
+#### Should you keep non-Git data?
 
-  - Is there sensitive information in historical commit <sup>[:book:](https://help.github.com/articles/github-glossary/#commit)</sup> messages?
-  - Do you want to use [private email addresses](https://help.github.com/articles/setting-your-commit-email-address-on-github/) on GitHub?
-
-  If you do want to keep the history, check out the **Using the GitHub Importer** section under Next steps.
-
-  ### You don't want all of this history
-
-  You can also do a clean cutover to "restart" version control and remove any unwanted history. If this sounds like the right option for you, check out the **Doing a clean cutover** section under Next steps.
-
-  ### Should you keep non-Git data?
-
-  These migrations are more complex, but not impossible. For most version control systems there are helpful Open Source <sup>[:book:](https://help.github.com/articles/github-glossary/#open-source)</sup> tools available. Here are a few resources:
+Mapping users, keeping commit comments, and other data migrations are more complex, but not impossible. For most version control systems there are helpful Open Source <sup>[:book:](https://help.github.com/articles/github-glossary/#open-source)</sup> tools available. Here are a few resources:
 
   - [GitHub's documentation on importing from other VCS](https://help.github.com/enterprise/2.12/admin/guides/migrations/importing-data-from-third-party-version-control-systems/)
   - [Blog post about GitHub Migrator tool](https://github.com/blog/2110-migrate-your-code-with-the-github-importer)
 
-  <hr>
-</details>
+### Other scenarios
 
 <details>
   <summary>Your project is on another site not using version control, such as CodePen or Glitch</summary>
@@ -63,7 +53,7 @@ Understanding where your project currently lives is the first step to uploading 
 
   ### Moving your project from another site not using version control
 
-  If you are moving your project from a site not using version control, such as CodePen or Glitch, the steps are a bit different that migrating your project from a source that is using version control. Because of this, we have a dedicated course for uploading your local project to GitHub. If this is your situation, please join the [Uploading your local project to GitHub]({{ host }}/courses/uploading-your-local-project) course to upload your project to GitHub.
+  If you are moving your project from a site not using version control, such as CodePen or Glitch, the steps are a bit different that migrating your project from a source that is using version control. Because of this, we have a dedicated course for uploading your local project to GitHub. If this is your situation, please join the [Uploading your local project to GitHub]({{ host }}/courses/uploading-your-local-project) course to learn how to handle your case.
 
   <hr>
 </details>
@@ -76,24 +66,7 @@ Understanding where your project currently lives is the first step to uploading 
 
   :sparkles: Terrific! @{{ user.username}} since you already have the project locally, you are _almost_ ready to move it to GitHub.
 
-  However, this course guides you through the necessary steps to migrate your repository from another version control system unto GitHub. Since your project is already on your local machine, the steps in this course are a bit different than what you need. If this is your situation, please join the [Uploading your local project to GitHub]({{ host }}/courses/uploading-your-local-project) course to upload your local project to GitHub.
-
-  <hr>
-</details>
-
-<details>
-  <summary>Is your project using version control?</summary>
-  <hr>
-
-  ### Is your project using version control
-
-  If you aren't sure whether or not your code is under version control, it probably isn't. However, here are a few tests you can apply to know for certain:
-
-  - Can you view a history of the changes you have made?
-  - Can you easily roll back to a previous version of your project?
-  - Are you required to provide "messages" or "commits" when you make changes?
-
-  If none of these are true, your project isn't using version control.
+  But, this course guides you through the necessary steps to migrate your repository from another version control system unto GitHub. Since your project is already on your local machine, you need slightly different instructions. Please join the [Uploading your local project to GitHub]({{ host }}/courses/uploading-your-local-project) course to learn how to handle your case.
 
   <hr>
 </details>
