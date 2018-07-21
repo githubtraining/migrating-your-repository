@@ -24,3 +24,6 @@ Hosting a project on GitHub enables you to share your work with millions of othe
 Now that you have a repository on GitHub learn about two features of the Settings tab that protect your deployed code. 
 
 There's so much more you can do with GitHub, and you have a solid start. Now...[what will you learn next]({{ host }}/courses)?
+
+<hr>
+<h3 align="center">I won't respond to this issue, just close it when you are done!</h3>
