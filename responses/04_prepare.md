@@ -12,18 +12,16 @@ You could choose to remove the binary files, or use another tool like [git-lfs](
 
 ### Add a `.gitignore`
 
-As mentioned above, there are files you won't want to store in Git. In addition to avoiding binaries, you will also want to keep build artifacts out of your version controlled code. As we convert your project to a Git repository, it should only include the source code necessary to build or compile your project.
+As we convert your project to a Git repository, it should only include the source code necessary to build or compile your project. In addition to avoiding binaries as we discussed above, you will also want to keep build artifacts out of your version controlled code. 
 
-To do this, you will create a file in your current project named `.gitignore`. When you switch over, Git will use the `.gitignore` to determine which files and directories should not be tracked under version control.
-
-A [`.gitignore` file](https://help.github.com/articles/ignoring-files/) should be committed into your repository in order to share the ignore rules with any other users that interact with the repository.
+To do this, you will create a file in your current project named `.gitignore`. Git will use the `.gitignore` to determine which files and directories should not be tracked under version control. The [`.gitignore` file](https://help.github.com/articles/ignoring-files/) is stored in your repository in order to share the ignore rules with any other users that interact with the repository. 
 
 Since the files to be ignored are dependent on the language you are using, the open source community has contributed some great templates for `.gitignore` files in the [`github/gitignore`](https://github.com/github/gitignore) repository.
 
 ### :keyboard: Activity: Prepare your repository
 
 1. Remove any binary files from your repository.
-1. In your local environment, [create a `.gitignore` file](https://help.github.com/articles/ignoring-files/). Use a [template](https://github.com/github/gitignore) or create your own.
+1. In your local environment, [create a `.gitignore` file](https://help.github.com/articles/ignoring-files/). You can use a [template](https://github.com/github/gitignore) or create your own.
 
 > When you are finished, close this issue. I will open a new issue with the next steps. :tada:
 
