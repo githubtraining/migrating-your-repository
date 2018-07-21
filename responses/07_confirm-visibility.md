@@ -1,22 +1,22 @@
-## Private or Public?
+## Step 4: Private or Public?
 
 Right now, your repository is set to {% if private %}private{% else %}public{% endif %}.
 
-You can change the visibility of a repository to Private <sup>[:book:](https://help.github.com/articles/github-glossary/#private-repository)</sup> or Public at any time, but there are some things you should know.
+You can change the visibility of a repository to Private or Public at any time in your repository's **Settings** tab, but there are some things you should know.
 
 ### Private Repositories
-If your repository is private, then the only people who can see your code are the collaborators <sup>[:book:](https://help.github.com/articles/github-glossary/#collaborator)</sup> that you've invited.
+If your repository is private, the only people who can see your code are you and the collaborators <sup>[:book:](https://help.github.com/articles/github-glossary/#collaborator)</sup> you've invited.
 
-Private repositories also aren't free. The price depends on how many collaborators have access to any given repository, but the base price is $7 per month for unlimited private personal repositories.
-
-You might want this repository to be private if it has sensitive information, or depending on the software's license.
+There is a small charge associated with Private repositories, but if your project has sensitive information, it's worth it. 
 
 ### Public Repositories
-In public repositories, anybody can see your code. All of the millions of open source repositories on GitHub are public, too!
+In public repositories, anybody can see your code. Millions of open source repositories on GitHub are public, too!
 
-Licenses, code of conduct, other files become even more important when the world can interact with you and your code. There are many benefits to this, but it's also a large responsibility. Keep in mind that once a repository is public _and_ open source, there are certain implications about keeping it public, depending on the license chosen.
+Licenses, code of conduct, and other files are important when you create a public repository. There are many benefits to this, but it's also a large responsibility. Keep in mind that once a repository is public _and_ open source, there are certain implications about keeping it public, depending on the license chosen.
 
 > It's important to note that public does **not** equal open source! The license associated with code determines whether or not it is open source.
 
 <hr>
-<h3 align="center">I won't respond to this issue, just close it when you are done!</h3>
+<h3 align="center">Watch below for my response!</h3>
+
+:robot: I'm waiting for you to close this issue.
