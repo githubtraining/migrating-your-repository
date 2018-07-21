@@ -2,7 +2,7 @@
 
 Migrating your repository to GitHub gives you the feature-rich tools and collaboration needed to elevate your project to the next level. Not to mention, it's also pretty exciting. If you're doing this for the first time, you have a few options when migrating your repository to GitHub. This course will guide you through the necessary steps to migrate your repository from another version control system to then be hosted on GitHub.
 
-I know some people like to get straight to the point while others like more information. For those who like more information, be sure to check out the drop-downs like these two :arrow_down:
+I know some people like to get straight to the point while others like more information. For those who like more information, be sure to check out the drop-downs like this one :arrow_down:
 
 <details>
   <summary>Why move to GitHub?</summary>
@@ -19,24 +19,7 @@ I know some people like to get straight to the point while others like more info
   <hr>
 </details>
 
-<details>
-  <summary>Is your project using version control?</summary>
-  <hr>
-
-  ### Is your project using version control
-
-  If you aren't sure whether or not your code is under version control, it probably isn't. However, here are a few tests you can apply to know for certain:
-
-  - Can you view a history of the changes you have made?
-  - Can you easily roll back to a previous version of your project?
-  - Are you required to provide "messages" or "commits" when you make changes?
-
-  If none of these are true, your project isn't using version control.
-
-  <hr>
-</details>
-
-### Where is your project today?
+### Where is your project?
 
 Understanding where your project currently lives is the first step to uploading it onto GitHub. Choose the below drop-down that best fits your current situation:
 
@@ -98,9 +81,26 @@ Understanding where your project currently lives is the first step to uploading 
   <hr>
 </details>
 
+<details>
+  <summary>Is your project using version control?</summary>
+  <hr>
+
+  ### Is your project using version control
+
+  If you aren't sure whether or not your code is under version control, it probably isn't. However, here are a few tests you can apply to know for certain:
+
+  - Can you view a history of the changes you have made?
+  - Can you easily roll back to a previous version of your project?
+  - Are you required to provide "messages" or "commits" when you make changes?
+
+  If none of these are true, your project isn't using version control.
+
+  <hr>
+</details>
+
 ### :keyboard: Activity: Determine next steps
 
-Now that you have considered your options, expand the appropriate section below for more information:
+Choose the drop-down below that best fits your current situation or for a printable version of the steps in this course, check out the [Quick Reference Guide]({{ host }}/public/{{ course.slug }}.pdf).
 
 <details>
   <summary>Using GitHub Importer</summary>
@@ -143,9 +143,9 @@ Now that you have considered your options, expand the appropriate section below 
   <hr>
 </details>
 
-> Close this issue to signal you are finished with this step. I will open a new issue to show you how to optimize your repository for Git operations. :tada:
+### Ready to move on?
 
-For a printable version of the steps in this course, check out the [Quick Reference Guide]({{ host }}/public/{{ course.slug }}.pdf).
+**Close this issue to signal you are finished with this step**. I will open a new issue to show you how to optimize your repository for Git operations. :tada:
 
 <hr>
 <h3 align="center">Watch below for my response</h3>
