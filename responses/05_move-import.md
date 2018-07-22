@@ -1,4 +1,4 @@
-## Step 3: Make the move
+## Step 3: Complete the Import
 
 If you have source code in Subversion, Mercurial, Team Foundation Server, or another Git repository, you can move it to GitHub using GitHub Importer. GitHub Importer can't necessarily bring over every piece of data, but it can bring the history. You can read more about the limitations [here](https://help.github.com/articles/about-github-importer/).
 
