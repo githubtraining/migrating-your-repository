@@ -53,6 +53,7 @@ steps:
           issue: Importing your project
           with: e_needs_gitignore.md
       - type: octokit
+        requester: user
         method: migrations.getImportProgress
         owner: '%payload.repository.owner.login%'
         repo: '%payload.repository.name%'
