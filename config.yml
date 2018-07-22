@@ -8,7 +8,7 @@ before:
     title: Plan the move
     body: 01_make-a-plan.md
 steps:
-  - title: Plan the move
+  - title: Plan the migration
     description: Explore your options for making the move to GitHub
     event: issues.closed
     link: https://github.com/{{ user.username }}/{{ course.template.name }}/issues/1
@@ -36,7 +36,7 @@ steps:
         data:
           issueURL: '%actions.new_issue.data.html_url%'
 
-  - title: Make the move
+  - title: Complete the Import
     description: Publish your project on GitHub
     event: push
     link: https://github.com/{{ user.username }}/{{ course.template.name }}/issues
