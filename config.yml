@@ -58,7 +58,7 @@ steps:
       - type: gate
         left: '%actions.issue.data.state%'
         operator: '==='
-        right: open
+        right: closed
         else:
           - type: closeIssue
             issue: Importing your project
