@@ -1,4 +1,4 @@
-## Step 1: Planning the migration
+## Step 1: Plan the migration
 
 Migrating your repository to GitHub gives you the feature-rich tools and collaboration needed to elevate your project to the next level. This course will guide you through the necessary steps to migrate your repository from another version control system to GitHub.
 
