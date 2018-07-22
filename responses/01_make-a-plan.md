@@ -71,15 +71,15 @@ Mapping users, keeping commit comments, and other data migrations are more compl
   <hr>
 </details>
 
-### :keyboard: Activity: Determine next steps
+### :keyboard: Activity: Next steps
 
 Choose the drop-down below that best fits your current situation or for a printable version of the steps in this course, check out the [Quick Reference Guide]({{ host }}/public/{{ course.slug }}.pdf).
 
 <details>
-  <summary>Using GitHub Importer</summary>
+  <summary>Using the GitHub Importer</summary>
   <hr>
 
-  ### Using GitHub Importer
+  ### Using the GitHub Importer
 
   GitHub has a terrific import tool that will allow you to import your repository in just a few minutes.
 
@@ -104,10 +104,10 @@ Choose the drop-down below that best fits your current situation or for a printa
 </details>
 
 <details>
-  <summary>Migrating non-git data</summary>
+  <summary>Migrating non-Git data</summary>
   <hr>
 
-  ### Migrating non-git data
+  ### Migrating non-Git data
 
   These migrations are more nuanced and outside the scope of this course. I recommend you go through these steps with a simple repository so you can learn best practices and then apply them to your more complex migration.
 
