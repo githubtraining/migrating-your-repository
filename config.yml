@@ -52,19 +52,28 @@ steps:
           type: respond
           issue: Importing your project
           with: e_needs_gitignore.md
-      - type: createIssue
-        action_id: new_issue
-        title: Public or private repository?
-        body: 07_confirm-visibility.md
-        data:
-          private: '%payload.repository.private%'
-      - type: closeIssue
+      - type: getIssue
         issue: Importing your project
-      - type: respond
-        with: 06_move-done-local.md
-        issue: Importing your project
-        data:
-          url: '%actions.new_issue.data.html_url%'
+        action_id: issue
+      - type: gate
+        left: '%actions.issue.data.state%'
+        operator: '!=='
+        right: closed
+        else:
+          - type: closeIssue
+            issue: Importing your project
+            action_id: closed
+          - type: createIssue
+            action_id: new_issue
+            title: Public or private repository?
+            body: 07_confirm-visibility.md
+            data:
+              private: '%payload.repository.private%'
+          - type: respond
+            with: 06_move-done-local.md
+            issue: Importing your project
+            data:
+              url: '%actions.new_issue.data.html_url%'
 
   - title: Public or private repository?
     description: Understand the difference between a public and private repository
