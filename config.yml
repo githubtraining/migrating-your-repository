@@ -46,6 +46,8 @@ steps:
       - type: createIssue
         title: Importing your project
         body: 05_move-import.md
+        comments:
+          - 08_graceful-exit.md
         action_id: new_issue
       - type: respond
         with: 02_next.md
