@@ -28,6 +28,22 @@ steps:
     link: https://github.com/{{ user.username }}/{{ course.template.name }}/issues
     actions:
       - type: createIssue
+        action_id: new_issue
+        title: Public or private repository?
+        body: 07_confirm-visibility.md
+        data:
+          private: '%payload.repository.private%'
+      - type: respond
+        with: 02_next.md
+        data:
+          issueURL: '%actions.new_issue.data.html_url%'
+
+  - title: Public or private repository?
+    description: Understand the difference between a public and private repository
+    event: issues.closed
+    link: https://github.com/{{ user.username }}/{{ course.template.name }}/issues
+    actions:
+      - type: createIssue
         title: Importing your project
         body: 05_move-import.md
         action_id: new_issue
@@ -41,17 +57,6 @@ steps:
     event: push
     link: https://github.com/{{ user.username }}/{{ course.template.name }}/issues
     actions:
-      - type: getTree
-        action_id: tree
-      - type: gate
-        required: false
-        left: '%actions.tree.data.tree%'
-        operator: includes
-        right: path:.gitignore
-        else:
-          type: respond
-          issue: Importing your project
-          with: e_needs_gitignore.md
       - type: octokit
         requester: user
         method: migrations.getImportProgress
@@ -67,30 +72,12 @@ steps:
         action_id: closed
       - type: createIssue
         action_id: new_issue
-        title: Public or private repository?
-        body: 07_confirm-visibility.md
-        data:
-          private: '%payload.repository.private%'
-      - type: respond
-        with: 06_move-done-local.md
-        issue: Importing your project
-        data:
-          url: '%actions.new_issue.data.html_url%'
-
-  - title: Public or private repository?
-    description: Understand the difference between a public and private repository
-    event: issues.closed
-    link: https://github.com/{{ user.username }}/{{ course.template.name }}/issues
-    actions:
-      - type: createIssue
-        action_id: new_issue
         title: A few parting words
         body: 08_graceful-exit.md
       - type: respond
         with: 02_next.md
         data:
           issueURL: '%actions.new_issue.data.html_url%'
-
 tags: [
   'Git','GitHub'
 ]
