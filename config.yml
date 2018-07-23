@@ -57,27 +57,10 @@ steps:
     event: push
     link: https://github.com/{{ user.username }}/{{ course.template.name }}/issues
     actions:
-      - type: octokit
-        requester: user
-        method: migrations.getImportProgress
-        owner: '%payload.repository.owner.login%'
-        repo: '%payload.repository.name%'
-        action_id: import
-      - type: gate
-        left: '%actions.import.data.status%'
-        operator: '==='
-        right: complete
       - type: closeIssue
         issue: Importing your project
         action_id: closed
-      - type: createIssue
-        action_id: new_issue
-        title: A few parting words
-        body: 08_graceful-exit.md
-      - type: respond
-        with: 02_next.md
-        data:
-          issueURL: '%actions.new_issue.data.html_url%'
+
 tags: [
   'Git','GitHub'
 ]
