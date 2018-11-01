@@ -5,7 +5,7 @@ It's time for the big move! Since your source code is in Subversion, Mercurial, 
 ### :keyboard: Activity: Import your project using GitHub Importer
 
 1. Copy the URL for your existing repository on Subversion, Mercurial, TFS, or another Git server
-1. Mavigate to the **Code** tab of this repository and scroll down to the section labeled **…or import code from another repository**
+1. Navigate to the **Code** tab of this repository and scroll down to the section labeled **…or import code from another repository**
 1. Click **Import code**
 1. Paste the URL for your repository in its current location
 1. Click **Begin import**
