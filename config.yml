@@ -12,7 +12,7 @@ steps:
   - title: Plan the migration
     description: Explore your options for making the move to GitHub
     event: issues.closed
-    link: https://github.com/{{ user.username }}/{{ course.template.name }}/issues/1
+    link: '{{ repoUrl }}/issues/1'
     actions:
       - type: createIssue
         action_id: new_issue
@@ -26,7 +26,7 @@ steps:
   - title: Prepare the project
     description: Get your project ready to be moved to GitHub
     event: issues.closed
-    link: https://github.com/{{ user.username }}/{{ course.template.name }}/issues
+    link: '{{ repoUrl }}/issues'
     actions:
       - type: createIssue
         action_id: new_issue
@@ -42,7 +42,7 @@ steps:
   - title: Public or private repository?
     description: Understand the difference between a public and private repository
     event: issues.closed
-    link: https://github.com/{{ user.username }}/{{ course.template.name }}/issues
+    link: '{{ repoUrl }}/issues'
     actions:
       - type: createIssue
         title: Importing your project
@@ -58,7 +58,7 @@ steps:
   - title: Complete the Import
     description: Publish your project on GitHub
     event: push
-    link: https://github.com/{{ user.username }}/{{ course.template.name }}/issues
+    link: '{{ repoUrl }}/issues'
     actions:
       - type: closeIssue
         issue: Importing your project
