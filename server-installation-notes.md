@@ -1,6 +1,6 @@
 ## GitHub Enterprise Server (GHES) installation notes
 
-✅ | This course is fully compatible with any supported version* of GHES.
+✅ | This course is compatible with supported versions* of GHES.
 --- | ---
 
 *Supported versions of GHES are visible by using the drop-down in the [official documentation](https://help.github.com/enterprise/).
