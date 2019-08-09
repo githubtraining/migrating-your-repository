@@ -1,13 +1,25 @@
-Moving your project from a legacy version control system is easy. If your project is currently on Subversion, Mercurial or another Git server, you can take it to the next level with GitHub's collaborative tools, uncompromised security, and premier third-party apps. 
+<p align="center"><a href="https://lab.github.com/"><img alt="Learning Lab bot" src="https://user-images.githubusercontent.com/16547949/62085817-83232580-b22a-11e9-8693-7c54205b04e5.png"></a></p>
 
-This course helps you seamlessly migrate a project using GitHub's importer tool. Along the way, we will also discuss important steps for preparing and sharing your project. 
+<h1 align="center">Course: Migrating your repository to GitHub </h1>
 
-In this course, you’ll learn how to:
+This repository powers the Learning Lab course [_Migrating your repository to GitHub_](https://lab.github.com/githubtraining/introduction-to-html). 
 
-- Prepare your project for a successful migration
-- Handle any binary files currently stored in your project
-- Create important Git files like a `.gitignore`
-- Import your project to GitHub
+Every Learning Lab course is made up of:
+- a [course repository](https://github.com/githubtraining/migrating-your-repository), and
+- a template repository, in this case an empty repository is created for the learner
 
+The course repository is written in YAML and Markdown. The template repository could be written in any language that supports the learning objectives.
 
-This course has a dedicated message board on the [GitHub Community]({{ communityBoard }}) website. If you want to discuss this course with GitHub Trainers or other participants create a post over there. The message board can also be used to troubleshoot any issue you encounter while taking this course.
+For more information on the goals of this course, check out the [`course-details.md`](course-details.md). 
+
+## Contribute
+
+See something we could improve? Check out the contributing guide in the [community contributors repository](https://github.com/githubtraining/community-contributors/blob/master/CONTRIBUTING.md) for more information on the types of contributions we :heart: and instructions.
+
+We :heart: our community and take great care to ensure it is fun, safe and rewarding. Please review our [Code of Conduct](https://github.com/githubtraining/community-contributors/blob/master/CODE_OF_CONDUCT.md) for community expectations and guidelines for reporting concerns.
+
+## License
+
+All Learning Lab course repositories are licensed under [CC-BY-4.0](../LICENSE) (c) 2019 GitHub, Inc. The template repositories associated with each course may have different licenses.
+
+When using the GitHub logos, be sure to follow the [GitHub logo guidelines](https://github.com/logos)
