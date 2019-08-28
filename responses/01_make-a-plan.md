@@ -42,7 +42,7 @@ If you are moving your project to GitHub as a public project, you may want to co
 
 Mapping users, keeping commit comments, and other data migrations are more complex, but not impossible. For most version control systems there are helpful Open Source <sup>[:book:](https://help.github.com/articles/github-glossary/#open-source)</sup> tools available. Here are a few resources:
 
-  - [GitHub's documentation on importing from other VCS](https://help.github.com/enterprise/2.12/admin/guides/migrations/importing-data-from-third-party-version-control-systems/)
+  - [GitHub's documentation on importing from other VCS](https://help.github.com/en/enterprise/2.18/admin/migrations/importing-data-from-third-party-version-control-systems)
   - [Blog post about GitHub Migrator tool](https://github.com/blog/2110-migrate-your-code-with-the-github-importer)
 
 ### Other scenarios
