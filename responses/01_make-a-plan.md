@@ -53,7 +53,7 @@ Mapping users, keeping commit comments, and other data migrations are more compl
 
   ### Moving your project from another site not using version control
 
-  If you are moving your project from a site not using version control, such as CodePen or Glitch, the steps are a bit different that migrating your project from a source that is using version control. Because of this, we have a dedicated course for uploading your local project to GitHub. If this is your situation, please join the [Uploading your local project to GitHub]({{ host }}/courses/uploading-your-local-project) course to learn how to handle your case.
+  If you are moving your project from a site not using version control, such as CodePen or Glitch, the steps are a bit different that migrating your project from a source that is using version control. Because of this, we have a dedicated course for uploading your local project to GitHub. If this is your situation, please join the [Uploading your local project to GitHub](https://lab.github.com/githubtraining/uploading-your-project-to-github) course to learn how to handle your case.
 
   <hr>
 </details>
