@@ -75,6 +75,9 @@ Mapping users, keeping commit comments, and other data migrations are more compl
 
 Choose the drop-down below that best fits your current situation or for a printable version of the steps in this course, check out the [Quick Reference Guide]({{ host }}/public/{{ course.slug }}.pdf).
 
+If you don't have a repository to use for this activity, you are welcome to use this one: https://github.com/githubtraining/github-move
+
+
 <details>
   <summary>Using the GitHub Importer</summary>
   <hr>
@@ -110,8 +113,6 @@ Choose the drop-down below that best fits your current situation or for a printa
   ### Migrating non-Git data
 
   These migrations are more nuanced and outside the scope of this course. I recommend you go through these steps with a simple repository so you can learn best practices and then apply them to your more complex migration.
-
-  If you don't have a repository to use for this activity, you are welcome to use this one: https://github.com/githubtraining/github-move
 
   <hr>
 </details>
