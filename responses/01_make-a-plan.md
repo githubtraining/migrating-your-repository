@@ -73,7 +73,7 @@ Mapping users, keeping commit comments, and other data migrations are more compl
 
 ### :keyboard: Activity: Next steps
 
-Choose the drop-down below that best fits your current situation or for a printable version of the steps in this course, check out the [Quick Reference Guide]({{ host }}/public/{{ course.slug }}.pdf).
+Choose the drop-down below that best fits your current situation.
 
 If you don't have a repository to use for this activity, you are welcome to use this one: https://github.com/githubtraining/github-move
 
