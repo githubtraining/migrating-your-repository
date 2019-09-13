@@ -42,7 +42,7 @@ If you are moving your project to GitHub as a public project, you may want to co
 
 Mapping users, keeping commit comments, and other data migrations are more complex, but not impossible. For most version control systems there are helpful Open Source <sup>[:book:](https://help.github.com/articles/github-glossary/#open-source)</sup> tools available. Here are a few resources:
 
-  - [GitHub's documentation on importing from other VCS](https://help.github.com/enterprise/2.12/admin/guides/migrations/importing-data-from-third-party-version-control-systems/)
+  - [GitHub's documentation on importing from other VCS](https://help.github.com/en/enterprise/admin/migrations/importing-data-from-third-party-version-control-systems)
   - [Blog post about GitHub Migrator tool](https://github.com/blog/2110-migrate-your-code-with-the-github-importer)
 
 ### Other scenarios
@@ -53,7 +53,7 @@ Mapping users, keeping commit comments, and other data migrations are more compl
 
   ### Moving your project from another site not using version control
 
-  If you are moving your project from a site not using version control, such as CodePen or Glitch, the steps are a bit different that migrating your project from a source that is using version control. Because of this, we have a dedicated course for uploading your local project to GitHub. If this is your situation, please join the [Uploading your local project to GitHub]({{ host }}/courses/uploading-your-local-project) course to learn how to handle your case.
+  If you are moving your project from a site not using version control, such as CodePen or Glitch, the steps are a bit different that migrating your project from a source that is using version control. Because of this, we have a dedicated course for uploading your local project to GitHub. If this is your situation, please join the [Uploading your local project to GitHub](https://lab.github.com/githubtraining/uploading-your-project-to-github) course to learn how to handle your case.
 
   <hr>
 </details>
@@ -73,7 +73,10 @@ Mapping users, keeping commit comments, and other data migrations are more compl
 
 ### :keyboard: Activity: Next steps
 
-Choose the drop-down below that best fits your current situation or for a printable version of the steps in this course, check out the [Quick Reference Guide]({{ host }}/public/{{ course.slug }}.pdf).
+Choose the drop-down below that best fits your current situation.
+
+If you don't have a repository to use for this activity, you are welcome to use this one: https://github.com/githubtraining/github-move
+
 
 <details>
   <summary>Using the GitHub Importer</summary>
@@ -110,8 +113,6 @@ Choose the drop-down below that best fits your current situation or for a printa
   ### Migrating non-Git data
 
   These migrations are more nuanced and outside the scope of this course. I recommend you go through these steps with a simple repository so you can learn best practices and then apply them to your more complex migration.
-
-  If you don't have a repository to use for this activity, you are welcome to use this one: https://github.com/githubtraining/github-move
 
   <hr>
 </details>

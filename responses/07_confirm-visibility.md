@@ -7,8 +7,6 @@ You can change the visibility of a repository to Private or Public at any time i
 ### Private Repositories
 If your repository is private, the only people who can see your code are you and the collaborators <sup>[:book:](https://help.github.com/articles/github-glossary/#collaborator)</sup> you've invited.
 
-There is a small charge associated with Private repositories, but if your project has sensitive information, it's worth it. 
-
 ### Public Repositories
 In public repositories, anybody can see your code. Millions of open source repositories on GitHub are public, too!
 
