@@ -2,12 +2,30 @@ Moving your project from a legacy version control system is easy. If your projec
 
 This course helps you seamlessly migrate a project using GitHub's importer tool. Along the way, we will also discuss important steps for preparing and sharing your project. 
 
-In this course, you’ll learn how to:
 
+## What you'll learn
+
+We'll answer common questions like:
+- What are some important considerations before migrating?
+- What preparations do you need to make to ensure a successful migration?
+- How do you handle binary files?
+- How do you create and use a `.gitignore` file?
+
+And when you're done you'll be able to:
 - Prepare your project for a successful migration
 - Handle any binary files currently stored in your project
 - Create important Git files like a `.gitignore`
 - Import your project to GitHub
 
+## What you'll build
+We'll be walking through how to migrate your repository to GitHub:
+<p align="left">
+  <img src="https://user-images.githubusercontent.com/57373296/75592863-6d404200-5a51-11ea-9699-2caa95dcabe4.PNG" width="650" height="400">
+</p>
 
-This course has a dedicated message board on the [GitHub Community]({{ communityBoard }}) website. If you want to discuss this course with GitHub Trainers or other participants create a post over there. The message board can also be used to troubleshoot any issue you encounter while taking this course.
+## Prerequisites
+None. This course is a great introduction for your first day on GitHub.
+
+## Audience
+
+New developers, new GitHub users, users new to Git, students, managers, teams
