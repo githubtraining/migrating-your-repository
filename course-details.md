@@ -17,6 +17,12 @@ And when you're done you'll be able to:
 - Create important Git files like a `.gitignore`
 - Import your project to GitHub
 
+## What you'll build
+We'll be walking through how to migrate your repository to GitHub:
+<p align="left">
+  <img src="https://user-images.githubusercontent.com/57373296/75592863-6d404200-5a51-11ea-9699-2caa95dcabe4.PNG" width="650" height="400">
+</p>
+
 ## Prerequisites
 None. This course is a great introduction for your first day on GitHub.
 
